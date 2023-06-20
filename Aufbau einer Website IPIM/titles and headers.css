@@ -1,0 +1,104 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: space, monospace}
+section {font-family: space, monospace}
+li {font-family: "Segoe UI", ui-monospace;
+    border-bottom: 1px solid #000000}
+h1 {text-align: center}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.button {
+    background-color: #0000FFFF; /* Green */
+    border: 2px solid blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {border-radius: 2px;}
+
+#myDIV {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    background-color: #f1f1f1;
+    height: 20.82%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    border: 2px solid blue;
+}
+
+#mynav {
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#myli {
+    float: left;
+}
+
+#myli2 {
+    float:right;
+}
+
+#myli_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#hp  {
+    float: right;
+    margin: 0 0 0 15px;
+    border: 4px solid;
+
+    clear: left;
+}
+
+section {
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+p {
+    color: #f1f1f1;
+}
+
+article {
+    color: #f1f1f1;
+}
+
+head {
+    color: #f1f1f1;
+}
+
+h1 {
+    color: #f1f1f1;
+}
+
